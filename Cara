@@ -1,0 +1,42 @@
+# Employee Data Wrangling Project
+
+Proyek ini bertujuan untuk melakukan pembersihan, standarisasi, dan analisis data karyawan dari file mentah hingga menjadi data siap pakai. Proyek ini mengikuti prinsip *Minimalist Data Wrangling* menggunakan Python dan ekosistem VS Code.
+
+## 📋 Prasyarat Sistem
+
+Sebelum menjalankan kode, pastikan Anda telah melakukan langkah-langkah instalasi berikut:
+
+1. **Visual Studio Code (VSCode)**
+   * Cari melalui browser dengan kata kunci "VSCode download".
+   * Unduh dan instal sesuai dengan spesifikasi sistem operasi (Windows/macOS/Linux).
+2. **Lingkungan Python (Miniconda)**
+   * Cari melalui browser dengan kata kunci "miniconda download".
+   * Instal Miniconda untuk mengelola paket dan *virtual environment*.
+3. **Extension VSCode**
+   * Buka menu **Extensions** (ikon kotak-kotak di sisi kiri) pada VSCode.
+   * Cari dan instal ekstensi **Python** resmi dari Microsoft.
+
+---
+
+## 🚀 Cara Menjalankan Proyek
+
+### 1. Membuka Proyek
+1. Buka aplikasi **VS Code**.
+2. Pilih menu **File** > **Open Folder**.
+3. Arahkan ke folder tempat Anda menyimpan proyek ini di lokal PC Anda.
+4. Klik **Select Folder**.
+
+### 2. Struktur File
+Berikut adalah penjelasan komponen utama dalam folder ini:
+
+* **`employee_data.csv`**: File dataset mentah (*raw data*) yang akan diolah.
+* **`notebook.ipynb`**: File Jupyter Notebook yang digunakan untuk proses eksplorasi, *testing*, dan analisis interaktif.
+* **`data_wrangling_pipeline.py`**: Skrip Python utama yang berisi fungsi standarisasi untuk keperluan *deployment* atau automasi.
+* **`README.md`**: Dokumen panduan ini.
+* **`employee_data_final.json`**: Hasil ekspor data akhir dalam format *Data Dictionary*.
+* **`employee_data_final.csv`**: Hasil ekspor data akhir dalam format tabular.
+
+## 📊 Hasil Akhir
+Setelah menjalankan pipeline, data akan tersedia dalam dua format untuk kebutuhan yang berbeda:
+* **CSV**: Untuk analisis statistik lanjutan atau dibuka di Excel.
+* **JSON**: Untuk integrasi dengan aplikasi web atau database NoSQL.
